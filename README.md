@@ -78,3 +78,8 @@ Track my growth from beginner to expert
 Build confidence and momentum one project at a time
 
 Feel free to clone, fork, or suggest improvements!
+
+## Python Module Projects
+
+Explore beginner-friendly hands-on Python modules and OOP examples:  
+ [Go to module_projects](./module_projects/)
