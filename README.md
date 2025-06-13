@@ -1,85 +1,90 @@
-#  Beginner Python Cheatsheet by DeboX
+# 🐍 Python Cheatsheet Projects
 
-Welcome to my beginner Python cheatsheet! This is a personal project created to practice and showcase the foundational building blocks of Python programming. The code examples inside are clean, beginner-friendly, and reflect my journey from zero to Python pro. 🚀
+This is a structured and beginner-friendly collection of Python projects I built to practice real-world coding skills.  
+Each folder represents a specific area of Python I'm mastering — from core logic and functions to randomness, modules, and packages.
+
+I'm using this repo to learn by doing, track my progress, and build a clean portfolio as I grow from beginner to professional.
 
 ---
 
-  Dictionary Practice
+## 📁 Project Structure
 
+| Folder | Description |
+|--------|-------------|
+| [`core_snippets/`](./core_snippets/) | Practice files with basic Python logic (dicts, lists, classes) |
+| [`module_projects/`](./module_projects/) | Beginner hands-on projects using Python functions and modules |
+| [`package_projects/`](./package_projects/) | Structured Python projects using packages and `__init__.py` |
+| [`random_projects/`](./random_projects/) | Fun tools and simulations built using the `random` module |
 
-students = {
-    "Jude": 85,
-    "Sarah": 80,
-    "Mariam": 90,
-    "Mike": 75
-}
+---
 
-students.pop("Mariam")
-students["John"] = 99
+## 🔹 core_snippets/
 
-print(students)
+> Small examples to understand Python syntax and logic.
 
+- [`practice_cheatsheet.md`](./core_snippets/practice_cheatsheet.md):  
+  Learn and practice using:
+  - Dictionaries
+  - Lists and task management
+  - Custom classes and methods
 
+---
 
+## 🔹 module_projects/
 
- Class Practice: Laptop Showcase
+> Real-life mini-apps built using Python modules.
 
-class Laptop:
-    def __init__(self, brand, RAM, price):
-        self.brand = brand
-        self.RAM = RAM
-        self.price = price
+- [`grocerylist/`](./module_projects/grocerylist/):  
+  Add, remove, and view grocery items with simple functions.
 
-    def introduce(self):
-        print(f"Brand: {self.brand}, RAM: {self.RAM}, Price: {self.price}")
+- [`smartplaylist/`](./module_projects/smartplaylist/):  
+  Build a smart playlist using classes, inheritance, and method overrides.
 
-describe1 = Laptop("Dell", "16GB", 50000)
-describe2 = Laptop("HP", "8GB", 40000)
+---
 
-describe1.introduce()
-describe2.introduce()
+## 🔹 package_projects/
 
+> Structured like real Python packages with importable modules.
 
+- [`LibrarySystem/`](./package_projects/LibrarySystem/):  
+  Simulates a library with `Book` and `BorrowedBook` classes.  
+  Helps practice:
+  - Python package layout
+  - Class import across folders
+  - Modular file structure
 
-   List Practice: To-Do App
+---
 
-tasks = ["Study Python", "Do laundry", "Buy food", "Call friend"]
+## 🔹 random_projects/
 
-tasks.remove("Do laundry")
-tasks.append("Appointment")
-tasks.append("Meeting")
-tasks.append("Learning")
-tasks.append("Gym")
+> Projects using randomness for games, generators, and simulations.
 
-print(f"My to-do stuffs for today is {tasks}")
+| Project | Feature | Description |
+|--------|---------|-------------|
+| [`password_generator`](./random_projects/password_generator/) | `random.choice()` | Generate secure passwords |
+| [`dice_duel_game`](./random_projects/dice_duel_game/) | `random.randint()` | Simulate a two-player dice game |
+| [`weather_simulator`](./random_projects/weather_simulator/) | `random.uniform()` | Generate temperature ranges |
+| [`lucky_draw`](./random_projects/lucky_draw/) | `random.sample()` | Pick winners from a list |
+| [`flashcard_shuffler`](./random_projects/flashcard_shuffler/) | `random.shuffle()` | Shuffle flashcards for study sessions |
 
+Each project includes:
+- Python code
+- README explanation
+- Example output
 
+---
 
-     What I'm Practicing
-How to use dict for storing and updating info
+## 💡 Why I Built This
 
-Creating classes and working with objects in Python
+- 🧠 To deeply understand Python by writing hands-on examples  
+- 📦 To organize everything I learn into clean, modular projects  
+- 🗂️ To simulate how real developers structure their code  
+- 🚀 To track my learning progress and document my growth on GitHub  
 
-Managing tasks and data using lists
+---
 
-Writing and organizing code cleanly for future reuse
+## ▶️ How to Use
 
-Using Git and GitHub like a real developer
-
-     About This Repository
-This repository is a record of my hands-on journey into Python. It's made to:
-
-Document what I’m learning
-
-Help others just starting out
-
-Track my growth from beginner to expert
-
-Build confidence and momentum one project at a time
-
-Feel free to clone, fork, or suggest improvements!
-
-## Python Module Projects
-
-Explore beginner-friendly hands-on Python modules and OOP examples:  
- [Go to module_projects](./module_projects/)
+```bash
+git clone https://github.com/giv333/Python-Cheatsheet.git
+cd Python-Cheatsheet

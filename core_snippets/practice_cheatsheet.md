@@ -56,17 +56,4 @@ tasks.append("Gym")
 
 # Print all tasks
 print(f"My to-do stuffs for today is {tasks}")
-```
 
----
-
-## 🧠 Tips
-- Use `.pop("key")` to remove an item from a dictionary.
-- Use `.append()` to add new items to a list.
-- `class` and `def` are used to build real objects in Python.
-- Keep practicing small, real-life examples to build confidence.
-
----
-
-### ✨ By DeboX
-Documenting the journey from beginner to pro. 🚀
