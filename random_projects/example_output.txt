@@ -1,0 +1,11 @@
+Run 1:
+Enter password length (min 4): 8
+✅ Your secure password is: J8^fpP@k
+
+Run 2:
+Enter password length (min 4): 12
+✅ Your secure password is: &iXr9wLo@2!q
+
+Run 3:
+Enter password length (min 4): 6
+✅ Your secure password is: a9*D2L
