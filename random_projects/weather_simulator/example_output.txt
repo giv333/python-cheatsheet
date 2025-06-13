@@ -1,0 +1,5 @@
+🌤️ Day 1: Temperature = 5.6°C
+🌤️ Day 2: Temperature = -1.2°C
+🌤️ Day 3: Temperature = 30.9°C
+🌤️ Day 4: Temperature = 11.4°C
+🌤️ Day 5: Temperature = 22.0°C

@@ -1,0 +1,6 @@
+📚 Flashcards (Random Order):
+1. What is Python?
+2. How does a function work?
+3. Define variable.
+4. Explain if/else.
+5. What is a loop?
