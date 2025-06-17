@@ -1,0 +1,8 @@
+Enter a folder name: LibrarySystem
+
+Python files found (including subfolders):
+main.py
+library/book.py
+library/__init__.py
+
+Total Python files: 3

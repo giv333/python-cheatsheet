@@ -1,0 +1,3 @@
+Write your note: Learn Python file handling
+Your note has been saved!
+
