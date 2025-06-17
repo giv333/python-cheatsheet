@@ -15,7 +15,7 @@ I'm using this repo to learn by doing, track my progress, and build a clean port
 | [`module_projects/`](./module_projects/) | Beginner hands-on projects using Python functions and modules |
 | [`package_projects/`](./package_projects/) | Structured Python projects using packages and `__init__.py` |
 | [`random_projects/`](./random_projects/) | Fun tools and simulations built using the `random` module |
-
+| [`file_directory_projects/`](./file_directory_projects/) | Projects that explore file handling and directory navigation |
 ---
 
 ## 🔹 core_snippets/
@@ -67,11 +67,21 @@ I'm using this repo to learn by doing, track my progress, and build a clean port
 | [`lucky_draw`](./random_projects/lucky_draw/) | `random.sample()` | Pick winners from a list |
 | [`flashcard_shuffler`](./random_projects/flashcard_shuffler/) | `random.shuffle()` | Shuffle flashcards for study sessions |
 
-Each project includes:
-- Python code
-- README explanation
-- Example output
 
+## 🔹 file_directory_projects/
+
+> Mini projects to practice working with files and folders in Python.
+
+| Project | Feature | Description |
+|--------|---------|-------------|
+| [`note_saver`](./file_directory_projects/note_saver/) | `open()` in append mode | Save user notes to a `.txt` file |
+| [`file_scanner`](./file_directory_projects/file_scanner/) | `pathlib.Path().rglob()` | Recursively scan a folder for `.py` files |
+
+
+Each project includes:
+- Beginner-friendly Python code
+- A clear README explanation
+- Example output file
 ---
 
 ## 💡 Why I Built This
